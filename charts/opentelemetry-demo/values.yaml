@@ -38,8 +38,11 @@ default:
     repository: frankzhu2003/opentelemetry-demo
     # Overrides the image tag whose default is the chart appVersion.
     # The service's name will be applied to the end of this value.
-    tag: ""
-    pullPolicy: IfNotPresent
+    # 
+    # overridded here 
+    #
+    tag: "listProductCatalogFailureFeatureFlag"
+    pullPolicy: Always
     pullSecrets: []
   schedulingRules:
     nodeSelector: {}
