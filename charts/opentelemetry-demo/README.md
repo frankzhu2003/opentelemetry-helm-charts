@@ -1,9 +1,12 @@
 
+## Installing the Chart
 
 ```console
 helm install c10e-otel-demo ./opentelemetry-demo --values ./my-values.yaml -n [namespace]
 ```
 You can find the example of my-values.yaml at [here](https://github.com/frankzhu2003/c10e-tools/blob/main/my-values.yaml)
+
+
 
 # OpenTelemetry Demo Helm Chart
 
