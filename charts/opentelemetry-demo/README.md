@@ -1,3 +1,10 @@
+
+
+```console
+helm install c10e-otel-demo ./opentelemetry-demo --values ./my-values.yaml -n [namespace]
+```
+
+
 # OpenTelemetry Demo Helm Chart
 
 The helm chart installs [OpenTelemetry Demo](https://github.com/open-telemetry/opentelemetry-demo)
